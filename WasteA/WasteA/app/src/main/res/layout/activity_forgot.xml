@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotActivity">
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="Forgot password?"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/mail_hint"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:text="We just need your registered Email Id to send you password reset instructions"
+
+        android:textColor="#05719B"
+        android:textSize="22sp" />
+
+
+    <EditText
+        android:id="@+id/forgotp"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:alpha="30"
+        android:layout_below="@+id/mail_hint"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:textColor="#000000"
+        android:hint="Enter Mail id"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/reset"
+        style="@style/Base.V23.Theme.AppCompat"
+        android:layout_width="320dp"
+        android:layout_height="40dp"
+        android:background="#05719B"
+        android:layout_alignLeft="@+id/forgotp"
+        android:layout_alignStart="@+id/forgotp"
+        android:layout_below="@+id/forgotp"
+        android:layout_marginTop="14dp"
+
+        android:text="RESET"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+</RelativeLayout>

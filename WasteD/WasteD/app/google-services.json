@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "843050261847",
+    "firebase_url": "https://wastea-8aec1.firebaseio.com",
+    "project_id": "wastea-8aec1",
+    "storage_bucket": "wastea-8aec1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843050261847:android:f760996af3e014fc",
+        "android_client_info": {
+          "package_name": "com.example.wastea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843050261847-tfb0g25pcu1233k13v9jce964c0uapth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2oNSpK7-hg6IWdhHoNG3Ju81ZN_ct18k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843050261847:android:82862dc8493add9d",
+        "android_client_info": {
+          "package_name": "com.example.wasted"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843050261847-tfb0g25pcu1233k13v9jce964c0uapth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2oNSpK7-hg6IWdhHoNG3Ju81ZN_ct18k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:843050261847:android:49a072ff912a59d2",
+        "android_client_info": {
+          "package_name": "com.example.wasteu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "843050261847-jdu2cq0ni3inc9v0vs7ofe9vqb12su1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.wasteu",
+            "certificate_hash": "f3b789674ab59e794c9cba1258ecd4f940746c79"
+          }
+        },
+        {
+          "client_id": "843050261847-tfb0g25pcu1233k13v9jce964c0uapth.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB2oNSpK7-hg6IWdhHoNG3Ju81ZN_ct18k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "843050261847-tfb0g25pcu1233k13v9jce964c0uapth.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

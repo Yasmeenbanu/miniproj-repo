@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/mail1"
+        android:layout_centerHorizontal="true"
+        android:hint="mail-id"
+        />
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/passwrd1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/mail1"
+        android:hint="password"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/name1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/passwrd1"
+        android:hint="name"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:id="@+id/phno"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/name1"
+        android:hint="phone no"/>
+
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="signup"
+        android:layout_centerHorizontal="true"
+        android:background="#05719B"
+        android:id="@+id/login1"
+        android:layout_below="@+id/phno"
+        android:layout_marginTop="10dp"
+        />
+
+</RelativeLayout>
